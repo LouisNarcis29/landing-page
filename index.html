@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landingPage</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="container">
             <div class="logo">Name your logo</div>
 
-            <ul class="nav-links">
+            <ul>
                 <li>
                     <a href="#">header link one</a>
                 </li>
@@ -31,7 +32,7 @@
 
     <header class="header">
         <div class="container">
-            <div>
+            <div class="left-text">
                 <h1>This website is awesome</h1>
                 <p>
                     This website has subtext that goes here under the main title.
@@ -39,25 +40,34 @@
                 </p>
                 <div class="button">Sign up</div>
             </div>
-
-            <img src="" alt="First image">
+    
+            <div class="image">
+                <p>this is a placeholder for an image</p>
+            </div>
         </div>
     </header>
 
     <section class="section-one">
-        <div class="text">Some random information</div>
-        <div class="box-containter">
+        <h1>Some random information.</h1>
+        <div class="container">
             <div class="box">
-                <img src="#" alt="First info image">
+                <img src="./images/box.png" alt="First info image"> 
+                <div class="text">This is some subtext under an illustration or image</div>
             </div>
+    
             <div class="box">
-                <img src="#" alt="Second info image">
+                <img src="./images/box.png" alt="Second info image"> 
+                <div class="text">This is some subtext under an illustration or image</div>
             </div>
+    
             <div class="box">
-                <img src="#" alt="Third info image">
+                <img src="./images/box.png" alt="Third info image"> 
+                <div class="text">This is some subtext under an illustration or image</div>
             </div>
+    
             <div class="box">
-                <img src="#" alt="Fourth info image">
+                <img src="./images/box.png" alt="Fourth info image"> 
+                <div class="text">This is some subtext under an illustration or image</div>
             </div>
         </div>
     </section>
@@ -65,19 +75,21 @@
     <section class="section-two">
         <div class="container">
             <blockquote class="quote">
-                This is an inspiring quote, or a testimonial from a customer. 
-                Maybe it's just filling up space, or maybe people will actually read it. 
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually read it.
                 Who knows? All i know is that it looks nice.
             </blockquote>
-            <p class="quote-writer">-Thor, God of Thunder</p>
+            <div class="quote-writer">
+                <p>-Thor, God of Thunder</p>
+            </div>
         </div>
     </section>
 
     <section class="section-three">
-        <div class="white-container">
+        <div class="container">
             <div class="blue-container">
                 <div class="text">
-                    <h2>Call to action! It's time!</h2>
+                    <h3>Call to action! It's time!</h2>
                     <p>Sign up for our product by clicking the button right over there!</p>
                 </div>
                 <div class="button">Sign up</div>
@@ -91,4 +103,5 @@
         </div>
     </footer>
 </body>
+
 </html>
